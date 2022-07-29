@@ -102,7 +102,7 @@ To test how the MechaCar performs against the competition, we will gather metric
 
 - What is the null hypothesis or alternative hypothesis?
 
-Null hypothesis (Ho): MechaCar is designed to compete with similar cars in it's class based on key performance factors.
+Null hypothesis (Ho):Based on key performance indicators, MechaCar is designed to outsell others in it's class.
 
 Alternative Hypothesis (Ha): MechaCar is not designed to competivitely compete with cars similar in it's class.
 
