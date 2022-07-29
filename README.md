@@ -81,10 +81,10 @@ Purpose: Short description of a statistical study that can quantify how the Mech
 
 To test how the MechaCar performs against the competition, we will gather metrics on similar cars in it's class to compare metrics deemed more important to comsumers and compare number of cars sold in the last 3 years.
 
-- What metric or metrics are you going to test?
--- units sold: dependent variable, numerical
--- cost: independent, numerical
--- city full eff: independent, numerical
+- What metric or metrics are you going to test?  
+  - units sold: dependent variable, numerical
+  - cost: independent, numerical
+  - city full eff: independent, numerical
 -- hwy full eff: independent, numerical
 -- hp: independent, numerical
 -- car-type: independent, categorial, factor
