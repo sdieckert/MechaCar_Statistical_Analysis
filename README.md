@@ -30,7 +30,7 @@ model<-lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearan
 
 summary(model)
 
-<deliveryable_1_summary_png>
+![deliverable_1_summary](https://user-images.githubusercontent.com/87085239/181676673-d547b526-4c62-4587-a589-445184a57c55.png)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? Along with the intercept, vehicle length and ground_clearance provides the highest degree of signifance to mpg with vehicle_weight providing a normal degree of significance. 
 
@@ -48,28 +48,33 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 Analysis of the suspension coils aggregated at a high level, it appears that the manufacturing data does meet the design specification in total with a variance under 100 pounds per square inch and equaling 62.29.
 
-<total_summary_png>
+![deliverable_2_total_summary](https://user-images.githubusercontent.com/87085239/181676737-edf5ae45-b00d-4e08-9274-d5ee6c57f8ba.png)
+
 
 Further analysis of the data by lots, reveals that Lot3 does not meet the design specifications of not exceeding 100 pounds per square inch due to a variance totaling 170.28 pounds per square inch. 
 
-<lot_summary_png>
+![deliverable_2_total_summary_lot](https://user-images.githubusercontent.com/87085239/181676757-a979c5f2-af3a-4f2c-a436-db89f467b4c6.png)
+
 
 
 ### Deliverable 3: T-Test on Suspension Coils
 
-<t-test_all_lots>
+![del_3_suspension_all_lots](https://user-images.githubusercontent.com/87085239/181676801-be084c01-1112-4c03-bb8d-08ef17246811.png)
 
 The mean of the total dataset is 1498.78 with a p-value of 0.06 which is above the .05 significance code and therefore not enough evidence to reject the null hypothesis. 
 
-<t-test_lot1>
+
+![del_3_suspension_lot1](https://user-images.githubusercontent.com/87085239/181676816-5687b676-b9ff-4428-8bad-58e7e7531204.png)
 
 Lot1 has mean of 1500 and a p-value equal to 1. There appears to be no difference between Lot1 and the population mean.
 
-<t-test_lot2>
+
+![del_3_suspension_lot2](https://user-images.githubusercontent.com/87085239/181676831-e5576675-d1e0-4256-927b-50e6e2cc7cca.png)
 
 Lot2 has a mean of 1500.0 and a p-value of 0.61. There appears to be little difference between Lot2 and teh population mean.
 
-<t-test_lot3>
+
+![del_3_suspension_lot3](https://user-images.githubusercontent.com/87085239/181676847-c98ff1ca-5b4d-46de-9dd2-176c59e1d41b.png)
 
 Lot3 has a mean of 1496.14 and a p-value of 0.04 which is below our normal signifiance code of 0.05. Due to this, we are to reject the null hypothesis that this lot is not different from the population mean.
 
@@ -85,14 +90,14 @@ To test how the MechaCar performs against the competition, we will gather metric
   - units sold: dependent variable, numerical
   - cost: independent, numerical
   - city full eff: independent, numerical
--- hwy full eff: independent, numerical
--- hp: independent, numerical
--- car-type: independent, categorial, factor
--- seating: independent, numerical
--- safety rating: independent, numerical
--- maintenance cost: independent, numerical
--- resale value at 5 years: independent, numerical
--- resale value at 10 years: independent, numerical
+  - hwy full eff: independent, numerical
+  - hp: independent, numerical
+  - car-type: independent, categorial, factor
+  - seating: independent, numerical
+  - safety rating: independent, numerical
+  - maintenance cost: independent, numerical
+  - resale value at 5 years: independent, numerical
+  - resale value at 10 years: independent, numerical
 
 
 - What is the null hypothesis or alternative hypothesis?
